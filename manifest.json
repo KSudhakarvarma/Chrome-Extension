@@ -1,0 +1,18 @@
+// manifest.json
+{
+    "name": "Extention-2",
+
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "action": {
+        "default_icon": "hello_world1.png",
+        "default_title": "Click to show an alert"
+    },
+
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    }
+
+  }
