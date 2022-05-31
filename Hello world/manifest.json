@@ -1,0 +1,22 @@
+  {
+
+    "name": "Hello Extensions",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "action": {
+        "default_title": "Click to view a popup",     //optional. shown in tooltip
+        "default_popup": "popup.html",
+        "default_icon": "hello_world.png"
+    },
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+F",
+            "mac": "MacCtrl+Shift+F"
+          },
+          "description": "Opens popup.html"
+        }
+      }
+  }
